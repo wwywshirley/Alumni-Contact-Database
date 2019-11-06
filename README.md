@@ -21,3 +21,4 @@ Front-end:<br/>
 (5) Location (locationID, city, state, postalCode)<br/>
 (6) Certificate (certificationName, certificationDate)<br/>
 
+### 1.2 ERD
