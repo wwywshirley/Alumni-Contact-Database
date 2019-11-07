@@ -22,7 +22,7 @@ Front-end:<br/>
 (6) Certificate (certificationName, certificationDate)<br/>
 
 ## 2.ERD
-![](Picture1.png)
+![](images/Picture1.png)
 
 ## 3.Relation Schema
 Alumni (alumniId, fName, mName, lName, gradYear, gradTerm, workYears, email, linkedinURL, officeNum, mobileNum, comId, locId, jobId)<br/>
@@ -33,7 +33,7 @@ Alumni (alumniId, fName, mName, lName, gradYear, gradTerm, workYears, email, lin
 	Skill (skillId, skillName, skillType)<br/>
 	Certification (alumniId, skillId, certName, certDate)<br/>
   
-![](Picture2.jpg)
+![](images/Picture2.jpg)
 
 ## 4.Create Table (Sample)
 ```
@@ -62,7 +62,7 @@ where l.locId=a.locId
 group by l.locState
 order by count(l.locState) desc;
 ```
-![](Picture3.png)
+![](images/Picture3.png)
 
 ### 2. Who has SQL skill in Washington DC, as well as their detailed information, so that we can invite them come to on-campus SQL workshop to share their experience.
 ```
@@ -75,16 +75,16 @@ and B.locState='DC'
 and skill.skillName='SQL'
 order by A.fName ASC, A.lName ASC
 ```
-![](Picture4.png)
+![](images/Picture4.png)
 
 # Application
 ### 1. screenshot for user story 1
 
-![](Picture5.jpg)
+![](images/Picture5.jpg)
 
 ### 2. screenshot for user story 2
 
 
-![](Picture6.jpg)
+![](images/Picture6.jpg)
 
 
