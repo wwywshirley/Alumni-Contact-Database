@@ -62,7 +62,7 @@ where l.locId=a.locId
 group by l.locState
 order by count(l.locState) desc;
 ```
-![](images/Picture3.png)
+![](images/Picture6.png)
 ![](images/Picture5.jpg)
 
 ### 2. Who has SQL skill in Washington DC, as well as their detailed information, so that we can invite them come to on-campus SQL workshop to share their experience.
