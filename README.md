@@ -63,6 +63,7 @@ group by l.locState
 order by count(l.locState) desc;
 ```
 ![](images/Picture3.png)
+![](images/Picture5.jpg)
 
 ### 2. Who has SQL skill in Washington DC, as well as their detailed information, so that we can invite them come to on-campus SQL workshop to share their experience.
 ```
@@ -76,15 +77,6 @@ and skill.skillName='SQL'
 order by A.fName ASC, A.lName ASC
 ```
 ![](images/Picture4.png)
-
-# Application
-### 1. screenshot for user story 1
-
-![](images/Picture5.jpg)
-
-### 2. screenshot for user story 2
-
-
 ![](images/Picture6.jpg)
 
 
